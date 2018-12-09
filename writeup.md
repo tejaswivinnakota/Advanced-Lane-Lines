@@ -101,7 +101,7 @@ The image below demonstrates how this process works:
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-To warp the obtained lane area back onto the road. Using warp_original function and left_fitx and right_fitx obtained after fitting the lines with a polynomial of the binary image, I projected those lines onto the undistorted image
+Using warp_original function and left_fitx and right_fitx obtained after fitting the lines with a polynomial of the binary image, I projected those lines onto the undistorted image
 
 ![alt text][warp_back]
 
